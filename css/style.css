@@ -1,0 +1,241 @@
+ 
+
+
+
+    /*GENERAL & COLORS & FONT*/
+a {
+	color: #525252;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+body {
+	background-color: #525252;
+	color: #525252; 
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+}
+
+header {
+	background-color: #ec625f;
+}
+
+
+#textprofile {
+	background-color: #ec625f;
+}
+
+#descriere {
+	background-color: #ec625f;
+}
+
+
+header a {
+	color: #525252;
+	font-size: 1.5em;
+}
+
+
+nav a, nav a:visited {
+	color: #525252;
+}
+
+nav a.selected, nav a:hover {
+	color: #999;
+}
+
+footer p {
+	color: #999;
+}
+img {
+	max-width: 100%;
+	width: 100%;
+	display: block;
+}
+
+	/*HEADING*/
+header {
+	float: left;
+	width: 100%;
+	padding: 5px 0 0 0;
+	margin: 0 0 30px 0;
+	font-size: 0.6em;
+	text-align: center;
+	font-weight: 800;
+
+}
+nav {
+	font-size: 1.2em;
+	background-color: #ff847b;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin: 10px;
+	padding: 0 5px;
+}
+
+	/*ABOUT*/
+
+.aboutstyle {
+	color: #ec625f;
+	font-size: 1.2em;
+	text-align: left;
+	margin: 0;
+}
+
+.aboutstyle img {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+h3 {
+	margin: 0 0 10px 0;
+	font-size: 1.2em;
+	border-bottom: 1px solid #ff847b;
+}
+#finalp {
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #ff847b;
+}
+
+
+
+	/*CONTACT*/
+.contactstyle {
+	color: #ec625f;
+	font-size: 1.2em;
+	text-align: left;
+	margin: 0;
+}
+
+.contactstyle a {
+	color: #ec625f;
+} 
+
+.contactstyle a:hover {
+	color: #999;
+}
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px 0;
+}
+
+.contact-info li.phone a {
+	background-image: url("../img/phone.png");
+}
+.contact-info li.mail a {
+	background-image: url("../img/mail.png");
+}
+.contact-info li.facebook a {
+	background-image: url("../img/facebook.png");
+}
+
+	/*PAGINI CU POZE*/
+
+#imglistcars {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#imglistcars li {
+	width: 45%;
+	margin: 2.5%;
+	padding: 0;
+	float: left;
+}
+
+#imglistcars li:nth-child(2n+1) {
+	clear: left;
+}
+
+.imgss {
+	text-align: left;
+	color: #ec625f;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+
+
+
+	/*LIST*/
+.list h2 {
+	font-size: 0.9em;
+}
+#wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 5%;
+	text-align: center;
+}
+
+#listcars {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#listcars li {
+	width: 90%;
+	margin: 2.5%;
+	background-color: #ec625f;
+	display: inline-block;
+	text-align: left;
+}
+
+
+.list h2, .list p {
+	padding: 0 0 0 10px;
+}
+
+
+.list a:visited {
+	color: #525252;
+}
+
+
+/*   FOOTER   */
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	clear: both;
+}
+
+footer a img {
+	margin: 0 5px;
+	width: 35px;
+	height: 35px;
+}
